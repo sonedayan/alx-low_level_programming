@@ -34,7 +34,7 @@ int _atoi(char *s)
 		{
 			num = s[i] - '0';
 			if (x % 2)
-				numm = -num;
+				num = -num;
 			y = y * 10 + num;
 			z = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
